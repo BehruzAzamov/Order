@@ -27,25 +27,25 @@ body{
 }
 
 
-.wrapper-container-inner {
+.wrapper-container__inner {
 padding: 45px 48px 48px; 
 text-align: center;
 }
-.wrapper-title {
+.wrapper-container__h1 {
 color: #1F2E55;
 font-weight: 900;
 font-size: 28PX;
 line-height: 37px;
 margin-bottom: 17px;
 }
-.wrapper-text {
+.wrapper-container_paragragh {
 margin-bottom: 20px;
 font-weight: 500;
 font-size: 16px;
 line-height: 26px;
 color: #717FA6;
 }
-.wrapper-annual-plan {
+.wrapper-container__plan {
 background-color: #f7f9ff;
 padding: 25px 24px;
 display: flex;
@@ -53,7 +53,7 @@ align-items: center;
 border-radius: 11px;
 margin-bottom: 32px;
 }
-.wrapper-annual-icon {
+.wrapper-container__icon {
 height: 48px;
 width: 48px;
 background-color: #DFE6FB;
@@ -63,10 +63,10 @@ align-items: center;
 border-radius: 50%;
 margin-right: 20px;
 }
-.wrapper-annual-price {
+.wrapper-container__price {
 margin-right: auto;
 }
-.wrapper-annual-price-title {
+.wrapper-container__price-tittle {
 margin-bottom: 6px;
 color: #1F2E55;
 font-weight: 900;
@@ -80,21 +80,21 @@ font-weight: 500;
 font-size: 16px;
 line-height: 21px;
 }
-.wrapper-annual-link {
+.wrapper-conatiner__link {
  color: #382EA1;
  font-weight: 700;
  font-size: 14px;
  line-height: 18px;
 }
 
-.wrapper-annual-link:hover{
+.wrapper-conatiner__link:hover{
 color: #776CF1;
 }
-.wrapper-container-btn-wrapper {
+.wrapper-container__btn-wrapper {
 display: flex;
 flex-direction: column;
 }
-.wrapper-container-payment-btn {
+.wrapper-container__payment-btn {
 margin-bottom: 32px;
 background-color: #382AE1;
 background: #382AE1;
@@ -107,12 +107,12 @@ color: #fff;
 padding: 15px 0px;
 }
 
-.wrapper-container-payment-btn:hover{
+.wrapper-container__payment-btn:hover{
 color: #766CF1;
 }
-.wrapper-container-cancel-btn:hover{
+.wrapper-container__cancel-btn:hover{
 color: #1F2E55;
 }
-.wrapper-container-cancel-btn {
+.wrapper-container__cancel-btn {
 color: #717FA6;
 }
